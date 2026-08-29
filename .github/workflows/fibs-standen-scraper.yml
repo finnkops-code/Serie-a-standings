@@ -17,21 +17,10 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Playwright installeren
-        run: |
-          pip install playwright
-          playwright install --with-deps chromium
       - name: Standen scrapen
+        env:
+          SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
         run: python fibs_scraper.py
-      - name: Debug-bestanden uploaden bij mislukking
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: fibs-debug
-          path: |
-            debug_screenshot.png
-            debug_page.html
-          if-no-files-found: ignore
       - name: JSON bestand committen
         run: |
           git config user.name  "github-actions[bot]"
