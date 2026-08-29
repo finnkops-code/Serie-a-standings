@@ -1,0 +1,312 @@
+{
+  "bijgewerkt": "2026-08-29T06:30:30Z",
+  "bron": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/standings",
+  "standen": {
+    "Girone A - NAZIONALE": [
+      {
+        "positie": "1",
+        "team": "1949 PARMA BASEBALL CLUB",
+        "team_code": "PAR",
+        "team_logo": "https://static.wbsc.org/upload/867c2c87-a075-4811-3a29-71da8dafa1a7.svg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39713",
+        "w": "21",
+        "l": "5",
+        "t": "0",
+        "pct": ".808",
+        "gb": "0"
+      },
+      {
+        "positie": "2",
+        "team": "UNIPOL FORTITUDO BOLOGNA",
+        "team_code": "BOL",
+        "team_logo": "https://static.wbsc.org/assets/cms/teams/logo/ef9c3699-433d-84cf-e297-da9743f94500.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39680",
+        "w": "18",
+        "l": "8",
+        "t": "0",
+        "pct": ".692",
+        "gb": "3"
+      },
+      {
+        "positie": "3",
+        "team": "NETTUNO 1945",
+        "team_code": "NET",
+        "team_logo": "https://static.wbsc.org/upload/204ee461-b8c4-8f9e-e8c4-6138b8fa9cc8.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39688",
+        "w": "18",
+        "l": "8",
+        "t": "0",
+        "pct": ".692",
+        "gb": "3"
+      },
+      {
+        "positie": "4",
+        "team": "FARMA CROCETTA",
+        "team_code": "CRO",
+        "team_logo": "https://static.wbsc.org/assets/cms/teams/logo/ca46571b-ff40-12b6-b72f-6adf48977f33.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39850",
+        "w": "8",
+        "l": "18",
+        "t": "0",
+        "pct": ".308",
+        "gb": "13"
+      },
+      {
+        "positie": "5",
+        "team": "BBC GROSSETO",
+        "team_code": "BBC",
+        "team_logo": "https://static.wbsc.org/upload/f3233b20-510f-5d48-d8d4-964b62bb3ae3.png",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39882",
+        "w": "6",
+        "l": "20",
+        "t": "0",
+        "pct": ".231",
+        "gb": "15"
+      }
+    ],
+    "Girone B - NAZIONALE": [
+      {
+        "positie": "1",
+        "team": "SAN MARINO BASEBALL",
+        "team_code": "RSM",
+        "team_logo": "https://static.wbsc.org/assets/cms/teams/logo/09fa8d5d-3beb-0f14-7d8e-8d48078672a2.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39719",
+        "w": "19",
+        "l": "7",
+        "t": "0",
+        "pct": ".731",
+        "gb": "0"
+      },
+      {
+        "positie": "2",
+        "team": "HOTSAND MACERATA",
+        "team_code": "MAC",
+        "team_logo": "https://static.wbsc.org/upload/a7cfc7d0-a21e-3922-5107-7dfdf50af8b6.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39989",
+        "w": "16",
+        "l": "10",
+        "t": "0",
+        "pct": ".615",
+        "gb": "3"
+      },
+      {
+        "positie": "3",
+        "team": "BIG MAT BSCGROSSETO",
+        "team_code": "GRO",
+        "team_logo": "https://static.wbsc.org/upload/c6a1c92f-f730-d3c6-6e34-76ff0c0e08c9.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39676",
+        "w": "10",
+        "l": "16",
+        "t": "0",
+        "pct": ".385",
+        "gb": "9"
+      },
+      {
+        "positie": "4",
+        "team": "PALFINGER REGGIO EMILIA",
+        "team_code": "REG",
+        "team_logo": "https://static.wbsc.org/assets/cms/teams/logo/e33a593f-e260-5aab-534d-7ebe5abe4d81.png",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39715",
+        "w": "7",
+        "l": "19",
+        "t": "0",
+        "pct": ".269",
+        "gb": "12"
+      },
+      {
+        "positie": "5",
+        "team": "CAMEC COLLECCHIO",
+        "team_code": "COL",
+        "team_logo": "https://static.wbsc.org/assets/cms/teams/logo/e9e5a7d2-0d88-430a-cbd6-bcebfd3a9c51.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39836",
+        "w": "7",
+        "l": "19",
+        "t": "0",
+        "pct": ".269",
+        "gb": "12"
+      }
+    ],
+    "Quarto di Finale A - NAZIONALE": [
+      {
+        "positie": "1",
+        "team": "1949 PARMA BASEBALL CLUB",
+        "team_code": "PAR",
+        "team_logo": "https://static.wbsc.org/upload/867c2c87-a075-4811-3a29-71da8dafa1a7.svg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39713",
+        "w": "3",
+        "l": "1",
+        "t": "0",
+        "pct": ".750",
+        "gb": "0"
+      },
+      {
+        "positie": "2",
+        "team": "PALFINGER REGGIO EMILIA",
+        "team_code": "REG",
+        "team_logo": "https://static.wbsc.org/assets/cms/teams/logo/e33a593f-e260-5aab-534d-7ebe5abe4d81.png",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39715",
+        "w": "1",
+        "l": "3",
+        "t": "0",
+        "pct": ".250",
+        "gb": "2"
+      }
+    ],
+    "Quarto di Finale B - NAZIONALE": [
+      {
+        "positie": "1",
+        "team": "SAN MARINO BASEBALL",
+        "team_code": "RSM",
+        "team_logo": "https://static.wbsc.org/assets/cms/teams/logo/09fa8d5d-3beb-0f14-7d8e-8d48078672a2.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39719",
+        "w": "3",
+        "l": "0",
+        "t": "0",
+        "pct": "1.000",
+        "gb": "0"
+      },
+      {
+        "positie": "2",
+        "team": "FARMA CROCETTA",
+        "team_code": "CRO",
+        "team_logo": "https://static.wbsc.org/assets/cms/teams/logo/ca46571b-ff40-12b6-b72f-6adf48977f33.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39850",
+        "w": "0",
+        "l": "3",
+        "t": "0",
+        "pct": ".000",
+        "gb": "3"
+      }
+    ],
+    "Quarto di Finale C - NAZIONALE": [
+      {
+        "positie": "1",
+        "team": "UNIPOL FORTITUDO BOLOGNA",
+        "team_code": "BOL",
+        "team_logo": "https://static.wbsc.org/assets/cms/teams/logo/ef9c3699-433d-84cf-e297-da9743f94500.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39680",
+        "w": "3",
+        "l": "0",
+        "t": "0",
+        "pct": "1.000",
+        "gb": "0"
+      },
+      {
+        "positie": "2",
+        "team": "BIG MAT BSCGROSSETO",
+        "team_code": "GRO",
+        "team_logo": "https://static.wbsc.org/upload/c6a1c92f-f730-d3c6-6e34-76ff0c0e08c9.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39676",
+        "w": "0",
+        "l": "3",
+        "t": "0",
+        "pct": ".000",
+        "gb": "3"
+      }
+    ],
+    "Quarto di Finale D - NAZIONALE": [
+      {
+        "positie": "1",
+        "team": "HOTSAND MACERATA",
+        "team_code": "MAC",
+        "team_logo": "https://static.wbsc.org/upload/a7cfc7d0-a21e-3922-5107-7dfdf50af8b6.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39989",
+        "w": "3",
+        "l": "1",
+        "t": "0",
+        "pct": ".750",
+        "gb": "0"
+      },
+      {
+        "positie": "2",
+        "team": "NETTUNO 1945",
+        "team_code": "NET",
+        "team_logo": "https://static.wbsc.org/upload/204ee461-b8c4-8f9e-e8c4-6138b8fa9cc8.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39688",
+        "w": "1",
+        "l": "3",
+        "t": "0",
+        "pct": ".250",
+        "gb": "2"
+      }
+    ],
+    "Semifinale A - NAZIONALE": [
+      {
+        "positie": "1",
+        "team": "1949 PARMA BASEBALL CLUB",
+        "team_code": "PAR",
+        "team_logo": "https://static.wbsc.org/upload/867c2c87-a075-4811-3a29-71da8dafa1a7.svg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39713",
+        "w": "4",
+        "l": "2",
+        "t": "0",
+        "pct": ".667",
+        "gb": "0"
+      },
+      {
+        "positie": "2",
+        "team": "HOTSAND MACERATA",
+        "team_code": "MAC",
+        "team_logo": "https://static.wbsc.org/upload/a7cfc7d0-a21e-3922-5107-7dfdf50af8b6.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39989",
+        "w": "2",
+        "l": "4",
+        "t": "0",
+        "pct": ".333",
+        "gb": "2"
+      }
+    ],
+    "Semifinale B - NAZIONALE": [
+      {
+        "positie": "1",
+        "team": "SAN MARINO BASEBALL",
+        "team_code": "RSM",
+        "team_logo": "https://static.wbsc.org/assets/cms/teams/logo/09fa8d5d-3beb-0f14-7d8e-8d48078672a2.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39719",
+        "w": "4",
+        "l": "3",
+        "t": "0",
+        "pct": ".571",
+        "gb": "0"
+      },
+      {
+        "positie": "2",
+        "team": "UNIPOL FORTITUDO BOLOGNA",
+        "team_code": "BOL",
+        "team_logo": "https://static.wbsc.org/assets/cms/teams/logo/ef9c3699-433d-84cf-e297-da9743f94500.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39680",
+        "w": "3",
+        "l": "4",
+        "t": "0",
+        "pct": ".429",
+        "gb": "1"
+      }
+    ],
+    "Italian Baseball Series - NAZIONALE": [
+      {
+        "positie": "1",
+        "team": "1949 PARMA BASEBALL CLUB",
+        "team_code": "PAR",
+        "team_logo": "https://static.wbsc.org/upload/867c2c87-a075-4811-3a29-71da8dafa1a7.svg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39713",
+        "w": "1",
+        "l": "1",
+        "t": "0",
+        "pct": ".500",
+        "gb": "0"
+      },
+      {
+        "positie": "1",
+        "team": "SAN MARINO BASEBALL",
+        "team_code": "RSM",
+        "team_logo": "https://static.wbsc.org/assets/cms/teams/logo/09fa8d5d-3beb-0f14-7d8e-8d48078672a2.jpg",
+        "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39719",
+        "w": "1",
+        "l": "1",
+        "t": "0",
+        "pct": ".500",
+        "gb": "0"
+      }
+    ]
+  }
+}
