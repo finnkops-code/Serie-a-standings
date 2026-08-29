@@ -23,6 +23,15 @@ jobs:
           playwright install --with-deps chromium
       - name: Standen scrapen
         run: python fibs_scraper.py
+      - name: Debug-bestanden uploaden bij mislukking
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fibs-debug
+          path: |
+            debug_screenshot.png
+            debug_page.html
+          if-no-files-found: ignore
       - name: JSON bestand committen
         run: |
           git config user.name  "github-actions[bot]"
