@@ -32,16 +32,49 @@ def clean_text(html_fragment):
 
 def fetch_html(url):
     with sync_playwright() as p:
-        browser = p.chromium.launch()
-        pagina = browser.new_page(
+        # --disable-blink-features=AutomationControlled + het overschrijven
+        # van navigator.webdriver zijn de bekende, goedkope stealth-trucs
+        # tegen simpele headless-detectiescripts. Als de site op IP-reputatie
+        # blokkeert (bv. Cloudflare die GitHub Actions-datacenter-IP's
+        # herkent) helpt dit niet — vandaar de uitgebreide diagnostiek
+        # hieronder, zodat we bij een mislukte run in de Actions-log/artifact
+        # meteen zien WAT er in plaats van de echte pagina binnenkwam.
+        browser = p.chromium.launch(args=["--disable-blink-features=AutomationControlled"])
+        context = browser.new_context(
             user_agent=(
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                 "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-            )
+            ),
+            viewport={"width": 1280, "height": 800},
+            locale="en-US",
         )
-        pagina.goto(url, wait_until="networkidle", timeout=60000)
-        # Wachten tot er minstens 1 standen-tabel in de DOM staat.
-        pagina.wait_for_selector(".box-container table", timeout=30000)
+        context.add_init_script(
+            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});"
+        )
+        pagina = context.new_page()
+        respons = pagina.goto(url, wait_until="networkidle", timeout=60000)
+        print(f"Debug: HTTP-status hoofdrequest: {respons.status if respons else 'onbekend'}")
+        print(f"Debug: uiteindelijke URL na eventuele redirects: {pagina.url}")
+        print(f"Debug: paginatitel: {pagina.title()!r}")
+        try:
+            # Wachten tot er minstens 1 standen-tabel in de DOM staat.
+            pagina.wait_for_selector(".box-container table", timeout=30000)
+        except Exception:
+            html_op_moment_van_falen = pagina.content()
+            print(f"Debug: eerste 1000 tekens van de pagina toen wachten mislukte:\n{html_op_moment_van_falen[:1000]!r}")
+            for signaal in ("Just a moment", "Checking your browser", "cf-browser-verification",
+                            "captcha", "Access denied", "cloudflare"):
+                if signaal.lower() in html_op_moment_van_falen.lower():
+                    print(f"Debug: signaalwoord '{signaal}' gevonden in de pagina — wijst op een bot-verificatie/-blokkade.")
+            try:
+                pagina.screenshot(path="debug_screenshot.png", full_page=True)
+                with open("debug_page.html", "w", encoding="utf-8") as f:
+                    f.write(html_op_moment_van_falen)
+                print("Debug: debug_screenshot.png en debug_page.html opgeslagen voor inspectie.")
+            except Exception as schrijf_fout:
+                print(f"Debug: kon debug-bestanden niet opslaan: {schrijf_fout}")
+            browser.close()
+            raise
         html = pagina.content()
         browser.close()
         return html
