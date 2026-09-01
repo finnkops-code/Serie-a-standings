@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-08-31T10:42:59Z",
+  "bijgewerkt": "2026-09-01T07:04:51Z",
   "bron": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/standings",
   "standen": {
     "Girone A - NAZIONALE": [
@@ -289,23 +289,23 @@
         "team_code": "PAR",
         "team_logo": "https://static.wbsc.org/upload/867c2c87-a075-4811-3a29-71da8dafa1a7.svg",
         "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39713",
-        "w": "1",
+        "w": "2",
         "l": "1",
         "t": "0",
-        "pct": ".500",
+        "pct": ".667",
         "gb": "0"
       },
       {
-        "positie": "1",
+        "positie": "2",
         "team": "SAN MARINO BASEBALL",
         "team_code": "RSM",
         "team_logo": "https://static.wbsc.org/assets/cms/teams/logo/09fa8d5d-3beb-0f14-7d8e-8d48078672a2.jpg",
         "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39719",
         "w": "1",
-        "l": "1",
+        "l": "2",
         "t": "0",
-        "pct": ".500",
-        "gb": "0"
+        "pct": ".333",
+        "gb": "1"
       }
     ]
   }
