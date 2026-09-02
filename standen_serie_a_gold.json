@@ -1,5 +1,5 @@
 {
-  "bijgewerkt": "2026-09-01T09:18:08Z",
+  "bijgewerkt": "2026-09-02T08:40:01Z",
   "bron": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/standings",
   "standen": {
     "Girone A - NAZIONALE": [
@@ -289,10 +289,10 @@
         "team_code": "PAR",
         "team_logo": "https://static.wbsc.org/upload/867c2c87-a075-4811-3a29-71da8dafa1a7.svg",
         "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39713",
-        "w": "2",
+        "w": "3",
         "l": "1",
         "t": "0",
-        "pct": ".667",
+        "pct": ".750",
         "gb": "0"
       },
       {
@@ -302,10 +302,10 @@
         "team_logo": "https://static.wbsc.org/assets/cms/teams/logo/09fa8d5d-3beb-0f14-7d8e-8d48078672a2.jpg",
         "team_link": "https://www.fibs.it/en/events/2026-serie-a-gold-baseball/teams/39719",
         "w": "1",
-        "l": "2",
+        "l": "3",
         "t": "0",
-        "pct": ".333",
-        "gb": "1"
+        "pct": ".250",
+        "gb": "2"
       }
     ]
   }
